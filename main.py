@@ -8,6 +8,8 @@ def isOdd(value):
     返回:
     bool - 如果是整数且为奇数返回 True，否则返回 False
     """
-    # 学生实现代码区域
-    # 提示：首先检查类型是否为整数，然后检查奇偶性
+    if isinstance(value, int):
+        return value % 2 != 0
+else:
+    return False
     
